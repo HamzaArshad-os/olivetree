@@ -26,9 +26,6 @@
                                 <a class="nav_links" href="#services">Services</a>
                             </li>
                             <li>
-                                <a class="nav_links" href="#process">Process</a>
-                            </li>
-                            <li>
                                 <a class="nav_links" href="#projects">Project Gallery</a>
                             </li>
                             <li><a class="nav_links" href="#testimonials">Testimonials</a>
@@ -97,16 +94,20 @@
     </section>
     
 <section class="common-section" id="projects">
-    <header class="common-section__header">
-        <h2>Charity Project Gallery</h2>
-        <p></p>
-    </header>
+  
     <div class="projects-wrap">
         <div class="grid-container">
+
+            <header class="common-section__header">
+                <h2>Charity Project Gallery</h2>
+                <p></p>
+            </header>
             <div class="projects">
                 
+                
+                
 
-                <figure class="projects__item" id="project1"><img src="./static/images/waterpump.jpg" alt="Thumbnail water pump">
+                <figure class="projects__item"><img src="./static/images/waterpump.jpg" alt="Thumbnail water pump">
                     <figcaption>
                         <button class="modal-open">Map of Water Pumps</button>
                         <div class="modal-box">
@@ -116,61 +117,84 @@
                         </div>
                     </figcaption>
                 </figure>
+                
 
-                <figure class="projects__item" id="project2">
-                    <!-- Slideshow container -->
-                    <div class="slideshow-container fade">
-                        <!-- Full images with numbers and message Info -->
-                        <div class="Containers" id="project2">
-                            <div class="MessageInfo">1 / 3</div>
-                            <img src="image1.jpg" style="width:100%">
-                            <div class="Info">First caption</div>
-                        </div>
-                        <div class="Containers">
-                            <div class="MessageInfo">2 / 3</div>
-                            <img src="./static/images/waterpump.jpg" style="width:100%">
-                            <div class="Info">Second Caption</div>
-                        </div>
+                <figure class="projects__item"> <img src="./static/images/foodpackagesbackground.jpg" alt="Thumbnail water pump">
+                    <figcaption>
+                        <button class="modal-open">Food Packages</button>
+                        <div>
+                            <div>
+                                <a class="Back" id="farleft" onclick=myFunctiongoForward(0)><img src="./static/images/arrowleft.png" alt="arrow left"></a>
+                                <a class="forward" id="farright" onclick=myFunctiongoBack(0)> <img src="./static/images/arrowright.png" alt="arrow right"></a>
+                            </div>
+                            
 
-                        <div class="Containers">
-                            <div class="MessageInfo">3 / 3</div>
-                            <img src="./static/images/foodpackagesbackground.jpg" style="width:100%">
-                            <div class="Info">Third Caption</div>
+                            <div >
+                            
+                                <img class="carousel0" src="./static/images/donationicon.png" alt="ffff">
+                                <img class="carousel0" src="./static/images/food-package-icon.png" alt="ffff">
+                                <img class="carousel0" src="./static/images/water-pump.png" alt="ffff">
+                                
+                                
+                            </div>
                         </div>
-                    <!-- Back and forward buttons -->
-                    <a class="Back" onclick="plusSlides(-1, project2)">&#10094;</a>
-                    <a class="forward" onclick="plusSlides(1), project2">&#10095;</a>
-                </div>
-           
+                    
+                    </figcaption>
                 </figure>
 
-                <figure class="projects__item" id="project3">
-                    <!-- Slideshow container -->
-                    <div class="slideshow-container fade">
-                        <!-- Full images with numbers and message Info -->
-                        <div class="Containers">
-                            <div class="MessageInfo">1 / 3</div>
-                            <img src="image1.jpg" style="width:100%">
-                            <div class="Info">First caption</div>
-                        </div>
-                        <div class="Containers">
-                            <div class="MessageInfo">2 / 3</div>
-                            <img src="./static/images/waterpump.jpg" style="width:100%">
-                            <div class="Info">Second Caption</div>
-                        </div>
 
-                        <div class="Containers">
-                            <div class="MessageInfo">3 / 3</div>
-                            <img src="./static/images/foodpackagesbackground.jpg" style="width:100%">
-                            <div class="Info">Third Caption</div>
+                <figure class="projects__item"> <img src="./static/images/ramadhanicon.png" alt="Thumbnail water pump">
+                    <figcaption>
+                        <button class="modal-open">Ramadhan Packs</button>
+                        <div>
+                            <div>
+                                <a class="Back" id="farleft" onclick=myFunctiongoForward(1)><img src="./static/images/arrowleft.png" alt="arrow left"></a>
+                                <a class="forward" id="farright" onclick=myFunctiongoBack(1)> <img src="./static/images/arrowright.png" alt="arrow right"></a>
+                            </div>
+                            
+
+                            <div >
+                            
+                                <img class="carousel1" src="./static/images/donationicon.png" alt="ffff">
+                                <img class="carousel1" src="./static/images/food-package-icon.png" alt="ffff">
+                                <img class="carousel1" src="./static/images/water-pump.png" alt="ffff">
+                           
+                                
+                            </div>
                         </div>
-                    <!-- Back and forward buttons -->
-                    <a class="Back" onclick="plusSlides(-1 ,project3)">&#10094;</a>
-                    <a class="forward" onclick="plusSlides(1,project3)">&#10095;</a>
-                </div>
+                    
+                    </figcaption>
                 </figure>
+
+                <figure class="projects__item"><img src="./static/images/waterpump.jpg" alt="Thumbnail water pump">
+                    <figcaption>
+                        <button class="modal-open">Water pumps</button>
+                        <div>
+                            <div>
+                                <a class="Back" id="farleft" onclick=myFunctiongoForward(2)><img src="./static/images/arrowleft.png" alt="arrow left"></a>
+                                <a class="forward" id="farright" onclick=myFunctiongoBack(2)> <img src="./static/images/arrowright.png" alt="arrow right"></a>
+                            </div>
+                            
+
+                            <div >
+                            
+                                <img class="carousel2" src="./static/images/donationicon.png" alt="ffff">
+                                <img class="carousel2" src="./static/images/food-package-icon.png" alt="ffff">
+                                <img class="carousel2" src="./static/images/water-pump.png" alt="ffff">
+                           
+                                
+                            </div>
+                        </div>
+                    
+                    </figcaption>
+                </figure>
+
+              
+
                
-            </div>
+              
+
+                
         </div>
     </div>
 </section>
@@ -235,7 +259,7 @@
                 <h2>Contact Information</h2>
                 <h4>Abu information</h4>
             </header><div class="contact-info">
-                <div class="contact-info__logo">MA</div><div class="contact-info__group">
+                <div class="contact-info__logo"><img src="./static/images/thetreefromlogo-removebg-preview.png" alt=""></div><div class="contact-info__group">
                     <div class="contact-info__additional">
                         <p>More contact info</p>
                     </div>
@@ -254,29 +278,46 @@
                     </div>
                     <ul class="contact-info__social">
                         <li>
-                            <a class="icon icon_fb" rel="nofollow">Facebook</a>
+                            <a class="icon icon_fb" href="https://www.facebook.com/olivetreeeducationaltrust/" rel="nofollow">Facebook</a>
+                            a
                         </li>
-                        <li>
-                            <a class="icon icon_twi" rel="nofollow">Twitter</a>
-                        </li>
-                        <li>
-                            <a class="icon icon_in" rel="nofollow">My Linkedin profile</a>
-                        </li>
+                       
                     </ul>
                 </div>
             </div>
         </section>
+
+    
+
     </div>
     <div>
 
     </div>
 </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 <!-- Footer-->
-<footer class="main-footer">
-    <div class="container">
-       
-    </div>
-</footer>
+--><footer class="main-footer"><div class="container"><a class="main-footer__gotop icon icon_gotop js-anchor" href="#home">To top!</a><p class="main-footer__links">Template designed by&nbsp;<a href="http://orlovmax.com">Maxim Orlov</a> and Built by &nbsp;<a href="https://www.linkedin.com/in/hamza-arshad-a4b475200">Hamza Arshad</a></p></div></footer>
 
 <script src="static/js/body.min.js">
 
